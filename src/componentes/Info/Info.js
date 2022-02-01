@@ -32,9 +32,12 @@ const Info = () => {
     },
   ];
 
-  gentelmanList.forEach((gentelman) => {
+  gentelmanList.map(function (gentelman) {
+    let genty = gentelman;
     return gentelman;
   });
+  console.log(genty);
+  return genty;
 };
 
 export default Info;
